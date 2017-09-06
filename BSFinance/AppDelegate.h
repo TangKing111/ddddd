@@ -12,6 +12,24 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+/**
+ *  系统配置
+ */
+//- (void)systemConfigration;
 
+/**
+ *  友盟注册
+ */
+//- (void)registerUmeng;
+
+/**
+ *  检查更新
+ */
+//- (void)checkAppUpDataWithshowOption:(BOOL)showOption;
+
+/**
+ *  获取用户信息
+ */
+//- (void)getUserData;
 @end
 

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BSTabBarController.h
 //  BSFinance
 //
 //  Created by 汤万珍 on 2017/9/6.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BSTabBarController : UITabBarController
 
 @end
-

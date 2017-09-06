@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  BSFinance
+//
+//  Created by 汤万珍 on 2017/9/6.
+//  Copyright © 2017年 BScompany. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_WIDTH   [UIScreen mainScreen].bounds.size.width
+#define SCREENH_HEIGHT [UIScreen mainScreen].bounds.size.height
+//随机颜色
+#define KRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
+
+#endif /* PrefixHeader_pch */
+//****************测试环境***********
+//app服务重构测试
+#define BaseURLString   @"http://www-test.baidu.com/rest/post"
+#define BaseURLString @"http://docker-branch02-web-tomcat.baidu.com:8080/rest/post"
+//****************开发环境(个人服务器)************
+//后台XXX
+#define BaseURLString  @"http://192.168.1.175:8080/baidu/rest/post"
+#else          //**************生产版本**************
+#define BaseURLString @"https://www.baidu.com/rest/post"
+
+#endif /* PrefixHeader_pch */
