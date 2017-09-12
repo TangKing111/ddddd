@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    //dadasd setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
