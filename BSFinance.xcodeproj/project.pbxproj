@@ -21,6 +21,7 @@
 		7D30ACC61F5FCCDD00C6A724 /* BSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D30ACC51F5FCCDD00C6A724 /* BSTabBarController.m */; };
 		7D30ACC81F5FCD7600C6A724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D30ACC71F5FCD7600C6A724 /* Foundation.framework */; };
 		7D30ACCB1F5FD07D00C6A724 /* DengLuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D30ACCA1F5FD07D00C6A724 /* DengLuViewController.m */; };
+		7DECA7E31F67B59D00F22BE2 /* ddddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DECA7E21F67B59D00F22BE2 /* ddddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		7D30ACC71F5FCD7600C6A724 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7D30ACC91F5FD07D00C6A724 /* DengLuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DengLuViewController.h; sourceTree = "<group>"; };
 		7D30ACCA1F5FD07D00C6A724 /* DengLuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DengLuViewController.m; sourceTree = "<group>"; };
+		7DECA7E11F67B59D00F22BE2 /* ddddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ddddViewController.h; sourceTree = "<group>"; };
+		7DECA7E21F67B59D00F22BE2 /* ddddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ddddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +233,8 @@
 		7DECA7E01F67B3A300F22BE2 /* 未命名文件夹 */ = {
 			isa = PBXGroup;
 			children = (
+				7DECA7E11F67B59D00F22BE2 /* ddddViewController.h */,
+				7DECA7E21F67B59D00F22BE2 /* ddddViewController.m */,
 			);
 			path = "未命名文件夹";
 			sourceTree = "<group>";
@@ -373,6 +378,7 @@
 				7D30ACC61F5FCCDD00C6A724 /* BSTabBarController.m in Sources */,
 				7D30AC801F5FC7F100C6A724 /* main.m in Sources */,
 				7D30ACC01F5FCA2A00C6A724 /* FinanceMyController.m in Sources */,
+				7DECA7E31F67B59D00F22BE2 /* ddddViewController.m in Sources */,
 				7D30ACBD1F5FCA0000C6A724 /* NewCenterController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
